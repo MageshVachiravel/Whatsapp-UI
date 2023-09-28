@@ -8,9 +8,102 @@
     <!-- Tailwindcss -->
     <link rel="stylesheet" href="./assets/css/output.css">
 </head>
-<body>
-    
-    <h1 class="text-red-500">Magesh</h1>
+<body class="bg-green-300 p-10">
+    <h1 class="font-black text-center mb-5">Whatsapp UI Challenge (Screen #1)
+    </h1>
+    <section class="bg-white max-w-md mx-auto">
+        
+        <div class="bg-emerald-800 text-white px-3 py-5 flex justify-between items-center">
+            <h4 class="font-semibold">WhatsApp</h4>
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"/></svg> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z"/></svg>
+        </div>
+
+        </div>
+        
+        <ul class="bg-emerald-800 text-white flex items-center p-3 py-2 space-x-4 justify-between">
+
+            <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="fill-current w-6"><path fill="currentColor" d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5ZM4 21q-.825 0-1.413-.588T2 19V7q0-.825.588-1.413T4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588T22 7v12q0 .825-.588 1.413T20 21H4Z"/></svg>
+            </li>
+
+            <li class="flex flex-1 justify-between items-center">
+            <div>
+                <div class="uppercase font-medium text-sm flex items-center space-x-2 relative"> 
+                    <span class="">CHATS</span> 
+                    <span class="bg-white text-emerald-700 p-2 rounded-full w-5 h-5 flex justify-center items-center">10</span>
+                    <span class=" absolute right-0.5 top-8 w-full h-1 bg-white"></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="uppercase font-medium text-sm flex items-center space-x-2"> 
+                    <span class="">STATUS</span> 
+                </div>
+            </div>
+
+            <div>
+                <div class="uppercase font-medium text-sm flex items-center space-x-2"> 
+                    <span class="">CALLs</span>
+                </div>
+            </div>
+
+            </li>
+        </ul>
+
+        <!-- Chat screen` -->
+
+        <div class="bg-white ">
+
+        <div class=" flex space-x-4 items-center hover:cursor-pointer px-3 py-5 hover:bg-gray-100">
+            <div>
+                <img src="https://ui-avatars.com/api/?name=Trisha Krishnan&background=random&color=fff" alt="Trisha Krishnan" class="rounded-full">
+            </div>
+
+            <div class="flex-1">
+                <h4 class="font-semibold">Trisha Krishnan</h4>
+                <p class="text-grey-600 text-sm text-gray-500 font-medium">Hello, how are you?</p>    
+            </div>
+
+            <div class="flex flex-col items-center space-y-1">
+                <span class="text-green-600 font-semibold text-sm">05:03PM </span>
+                <span class="w-6 h-6 rounded-full p-2 text-sm bg-green-600 flex items-center text-white font-semibold">2</span></div>
+        </div>
+
+        <div class=" flex space-x-4 items-center hover:cursor-pointer px-3 py-5 hover:bg-gray-100">
+            <div>
+                <img src="https://ui-avatars.com/api/?name=Nayanthara&background=random&color=fff" alt="Nayanthara" class="rounded-full">
+            </div>
+
+            <div class="flex-1">
+                <h4 class="font-semibold">Nayanthara</h4>
+                <p class="text-grey-600 text-sm text-gray-500 font-medium">Epdi irukinga?</p>    
+            </div>
+
+            <div class="flex flex-col items-center space-y-1">
+                <span class="text-green-600 font-semibold text-sm">04:54PM </span>
+                <span class="w-6 h-6 rounded-full p-2 text-sm bg-green-600 flex items-center text-white font-semibold">1</span></div>
+        </div>
+
+        <div class="flex space-x-4 items-center hover:cursor-pointer px-3 py-5 hover:bg-gray-100">
+            <div>
+                <img src="https://ui-avatars.com/api/?name=Samantha&background=random&color=fff" alt="Samantha" class="rounded-full">
+            </div>
+
+            <div class="flex-1">
+                <h4 class="font-semibold">Samantha</h4>
+                <p class="text-grey-600 text-sm text-gray-500 font-medium">Call me..</p>    
+            </div>
+
+            <div class="flex flex-col items-center space-y-1">
+                <span class="text-green-600 font-semibold text-sm">03:34PM </span>
+                <span class="w-6 h-6 rounded-full p-2 text-sm bg-green-600 flex items-center text-white font-semibold">1</span></div>
+        </div>
+
+    </div>
+
+    </section>
     
 </body>
 </html>
