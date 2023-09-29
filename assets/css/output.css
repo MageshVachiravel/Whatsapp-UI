@@ -712,6 +712,10 @@ video {
   margin-left: 0.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -1893,6 +1897,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'https\:\/\/cdn\.wallpapersafari\.com\/4\/11\/WofyVJ\.png\'\)\] {
+  background-image: url('https://cdn.wallpapersafari.com/4/11/WofyVJ.png');
 }
 
 .bg-gradient-to-r {
